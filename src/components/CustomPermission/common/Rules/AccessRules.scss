@@ -1,0 +1,17 @@
+.is-invalid-wrapper {
+  ::v-deep .form-control {
+    border-color: #f86c6b;
+    box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.25);
+  }
+  ~.invalid-feedback {
+    display: block;
+  }
+}
+::v-deep .action-td {
+  width: 140px;
+}
+::v-deep .table {
+  .vertical-content {
+    vertical-align: middle;
+  }
+}

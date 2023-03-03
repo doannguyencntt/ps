@@ -1,0 +1,20 @@
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+.notify-err{
+    color: red;
+    font-size: 13px;
+}
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 3px;
+}
+.hidden-button{
+    display: none;
+}

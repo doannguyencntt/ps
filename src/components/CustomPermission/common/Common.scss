@@ -1,0 +1,82 @@
+.is-invalid-wrapper {
+  ::v-deep .form-control {
+    border-color: #f86c6b;
+    box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.25);
+  }
+  ::v-deep .vs__dropdown-toggle {
+    border-color: #f86c6b;
+    box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.25);
+  }
+  ~.invalid-feedback {
+    display: block;
+  }
+}
+.permission-groups {
+  .invalid-feedback {
+    display: block;
+  }
+  .action-td {
+    width: 100px;
+  }
+}
+.table-middle {
+  td, th {
+    vertical-align: middle;
+  }
+  .action-td {
+    width: 140px;
+  }
+  .status-td {
+    width: 65px;
+  }
+}
+.equal-height {
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  .full-width {
+    width: 100%;
+  }
+}
+.custom-alert {
+  padding: 0.75rem;
+}
+.custom-v-select {
+  max-width: 350px;
+}
+.custom-height {
+  max-height: 500px;
+}
+.preview-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  th {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0 1px #c8ced3, 0 -1px #c8ced3;
+  }
+}
+::v-deep .radio-btn {
+  &-allow {
+    .custom-control-input:checked ~ .custom-control-label::before {
+      background-color: #009745;
+      border-color: #009745;
+    }
+  }
+  &-deny {
+    .custom-control-input:checked ~ .custom-control-label::before {
+      background-color: #F41B35;
+      border-color: #F41B35;
+    }
+  }
+  &-inherit {
+    .custom-control-input:checked ~ .custom-control-label::before {
+      background-color: #69757D;
+      border-color: #69757D;
+    }
+  }
+}

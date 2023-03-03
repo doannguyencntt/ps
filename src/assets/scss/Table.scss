@@ -1,0 +1,62 @@
+::v-deep .table {
+  .status-td {
+    width: 75px;
+  }
+  .action-td {
+    width: 140px;
+  }
+  .email-td {
+    width: 300px;
+  }
+  .enabled-col {
+    width: 100px;
+  }
+  .vertical-content{
+    vertical-align: middle;
+  }
+  .badge {
+    line-height: 18px;
+    padding: 0 0.4em;
+    display: block;
+  }
+  .custom-checkbox {
+    display: inline-block;
+  }
+  tr {
+    &.active {
+      border: 3px solid #187da0;
+    }
+    .action-td, .btn-permissions {
+      white-space: nowrap;
+    }
+  }
+  .small-icon{
+    font-size: 0.76rem;
+  }
+  // Remove the min-width here could make dropdowns width inconsistent
+  .dropdown-menu {
+    min-width: 0;
+  }
+}
+::v-deep .table-blur{
+  tr {
+    &.active {
+      border: 3px solid #187da0;
+      td{
+        opacity: 1;
+      }
+    }
+    td{
+      opacity: 0.6;
+    }
+    td:last-child{
+      opacity: unset;
+    }
+  }
+}
+.img.img__circle {
+  border-radius: 50%;
+}
+::v-deep .custom-select-width {
+  min-width: 160px;
+}

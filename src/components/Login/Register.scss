@@ -1,0 +1,59 @@
+.custom-margin {
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+.login-btn{
+	color: white;
+	border: 1px solid white;
+	padding: 6px 24px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	&:hover{
+		background-color: #1b8eb7;
+	}
+}
+.return-login-btn{
+	color: white;
+	background-color: #20a8d8;
+	border: 1px solid white;
+	padding: 3px 24px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	&:hover{
+		background-color: #1b8eb7;
+	}
+}
+.verify-btn{
+	padding: 3px 22px;
+	font-weight: bold;
+}
+.resend-btn{
+	padding: 3px 22px;
+	font-weight: bold;
+	background-color: rgb(248, 206, 204);
+	border: 1px solid rgb(223, 157, 155);
+	&:hover{
+		background-color: rgb(223, 157, 155);
+	}
+}
+.active-success-notify{
+	margin: 45px 0px;
+}
+.pd-5-40{
+	padding: 5px 40px;
+}
+.is-invalid-custom{
+	border-color: #f86c6b;
+	&:focus {
+		border-color: #dc3545;
+		box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+	}
+}
+.is-invalid-custom, .invalid-feedback{
+	display: block;
+}
+.register-width{
+	width: 380px;
+}

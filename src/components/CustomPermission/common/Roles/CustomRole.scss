@@ -1,0 +1,11 @@
+::v-deep .action-td {
+  width: 140px;
+}
+::v-deep .table {
+  .vertical-content {
+    vertical-align: middle;
+  }
+}
+.custom-alert {
+  padding: 0.75rem;
+}
